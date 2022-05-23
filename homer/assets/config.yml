@@ -1,0 +1,88 @@
+title: "App dashboard"
+subtitle: "Homer"
+
+logo: "assets/logo.png"
+
+header: false
+footer: false
+
+columns: "auto"
+connectivityCheck: true
+
+# Set the default layout and color scheme
+defaults:
+  layout: columns # Either 'columns', or 'list'
+  colorTheme: auto # One of 'auto', 'light', or 'dark'
+
+# Optional theming
+theme: default
+
+links: # Navbar
+  - name: "Work"
+    icon: "fa-solid fa-briefcase"
+    url: "#"
+
+  - name: "Home"
+    icon: "fa-solid fa-house"
+    url: "#home"
+
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/ozeliurs-MaximeBilly"
+    target: "_blank"
+
+services:
+  - name: "Normie Stuff"
+    icon: "fas fa-user-tie"
+    items:
+
+      - name: "Zoom"
+        logo: "/assets/tools/zoom-icon.png"
+        tag: "communication"
+        url: "https://zoom.us/signin"
+        target: "_blank"
+
+      - name: "Zimbra"
+        icon: "fa-solid fa-at"
+        subtitle: "Mail Pro"
+        tag: "communication"
+        url: "https://zimbra.digitick.com"
+        target: "_blank"
+
+      - name: "Mattermost"
+        icon: "fa-solid fa-message"
+        subtitle: "Chat Pro"
+        tag: "communication"
+        url: "https://chat.digitick.net"
+        target: "_blank"
+      
+      - name: "Confluence"
+        logo: "/assets/tools/confluence-icon.png"
+        subtitle: "Documentation (GED)"
+        tag: "cloud"
+        url: "https://doc.digitick.net/"
+        target: "_blank"
+
+      - name: "Nextcloud"
+        icon: "fa-solid fa-cloud-arrow-down"
+        tag: "cloud"
+        url: "https://cloud.digitick.net"
+        target: "_blank"
+
+      - name: "Euricia"
+        icon: "fa-solid fa-users"
+        subtitle: "Outils RH"
+        tag: "rh"
+        url: "https://plateforme.eurecia.com"
+        target: "_blank"
+
+  - name: "Dev"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Gitlab"
+        icon: "fa-brands fa-gitlab"
+        subtitle: "Pro git repository"
+        tag: "git"
+        url: "https://gitlab.digitick.net/"
+        target: "_blank"
