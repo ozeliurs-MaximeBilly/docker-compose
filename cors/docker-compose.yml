@@ -1,0 +1,8 @@
+version: '3'
+services:
+  homer:
+    image: imjacobclark/cors-container
+    container_name: cors-container
+    restart: always
+    ports:
+      - 3000:3000
