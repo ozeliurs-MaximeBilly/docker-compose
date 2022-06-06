@@ -100,3 +100,13 @@ services:
         tag: "download"
         url: "https://ozeliurs.priam.usbx.me/transmission"
         target: "_blank"
+
+  - name: "External"
+    icon: "fa-solid fa-arrow-up-right-from-square"
+    items:
+
+    - name: "Udemy"
+      logo: "assets/tools/udemy-icon.png"
+      tag: "learning"
+      url: "https://www.udemy.com/"
+      target: "_blank"
